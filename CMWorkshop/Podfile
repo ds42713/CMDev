@@ -1,0 +1,9 @@
+platform :ios, '13.0'
+use_frameworks!
+
+target 'CMWorkshop' do
+  pod 'Alamofire', '~> 5.2'
+  pod 'Kingfisher', '~> 5.14'
+  pod 'Kingfisher/SwiftUI'
+  pod 'SwiftUIRefresh'
+end
